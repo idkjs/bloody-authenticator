@@ -1,0 +1,19 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "reason-flowtype-test-dev-20190818150427-authRole",
+            "UnauthRoleArn": "arn:aws:iam::073051392232:role/reason-flowtype-test-dev-20190818150427-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::073051392232:role/reason-flowtype-test-dev-20190818150427-authRole",
+            "Region": "eu-west-1",
+            "DeploymentBucketName": "reason-flowtype-test-dev-20190818150427-deployment",
+            "UnauthRoleName": "reason-flowtype-test-dev-20190818150427-unauthRole",
+            "StackName": "reason-flowtype-test-dev-20190818150427",
+            "StackId": "arn:aws:cloudformation:eu-west-1:073051392232:stack/reason-flowtype-test-dev-20190818150427/0092d950-c1eb-11e9-82ba-06952668af9c"
+        },
+        "categories": {
+            "auth": {
+                "reasonflowtypetestfc22e465": {}
+            }
+        }
+    }
+}

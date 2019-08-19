@@ -1,0 +1,9 @@
+{
+	"auth": {
+		"reasonflowtypetestfc22e465": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
+		}
+	}
+}
