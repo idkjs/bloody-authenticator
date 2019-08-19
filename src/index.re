@@ -8,5 +8,5 @@ external unregister_service_worker: unit => unit = "unregister";
 Amplify.configure();
 Amplify.getToken;
 
-open BloodDemo;
+open BloodyOwlDemo;
 ReactDOMRe.renderToElementWithId(<WrappedApp message="Thanks" />, "root");

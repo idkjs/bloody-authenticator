@@ -4,7 +4,7 @@ var React = require("react");
 var ReactDOMRe = require("reason-react/src/ReactDOMRe.js");
 var ServiceWorker = require("./serviceWorker");
 var Amplify$ReactHooksTemplate = require("./aws/Amplify.bs.js");
-var BloodDemo$ReactHooksTemplate = require("./BloodDemo.bs.js");
+var BloodyOwlDemo$ReactHooksTemplate = require("./BloodyOwlDemo.bs.js");
 
 ((require('./index.css')));
 
@@ -20,7 +20,7 @@ function unregister_service_worker(prim) {
 
 Amplify$ReactHooksTemplate.configure(/* () */0);
 
-ReactDOMRe.renderToElementWithId(React.createElement(BloodDemo$ReactHooksTemplate.WrappedApp[/* make */0], {
+ReactDOMRe.renderToElementWithId(React.createElement(BloodyOwlDemo$ReactHooksTemplate.WrappedApp[/* make */0], {
           message: "Thanks"
         }), "root");
 
